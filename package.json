@@ -1,5 +1,5 @@
 {
-  "name": "hyper-drop-file",
+  "name": "hyperterm-drop-file",
   "version": "1.0.2",
   "description": "the hyper plugin to let you drop file path into your terminal",
   "dependencies": {
