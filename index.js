@@ -31,8 +31,8 @@ exports.onRendererWindow = (window) => {
     })
   //
     window.document.querySelector("#hyper").addEventListener("drop", (e) => {
-      // e.preventDefault()
-      // e.stopPropagation()
+      e.preventDefault()
+      e.stopPropagation()
       for (let file of e.dataTransfer.files) {
         const pathname = /\s/.test(file.path) ? '"' + file.path + '"' : file.path;
         sendSessionData(null, pathname)
