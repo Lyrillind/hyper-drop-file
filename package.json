@@ -1,10 +1,8 @@
 {
   "name": "hyperterm-drop-file",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "the hyper plugin to let you drop file path into your terminal",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/qweasd1/hyper-drop-file"
